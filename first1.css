@@ -1,0 +1,170 @@
+body {
+  background-color:powderblue;
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  }
+#title {
+  text-align:center;
+}
+#description {
+  text-align:center;
+}
+form {
+  background-color:white;
+  text-align:center;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+h6 {
+  text-align: right;
+  }
+.leftcolumn {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  margin: 10px;
+
+}
+#dropdown-label {
+  margin-right: 30px;
+    width: 40%;
+}
+#radio-label {
+  margin: 20px 100px;
+  text-align: center;
+  width: 70%;
+}
+.lista {
+  margin:0;
+  padding:0;
+ display: block;
+  width=25%;
+}
+.rightcolumn {
+  display: inline-block;
+  text-align: left;
+  width: 35%;
+  margin: 10px;
+  padding: 5px 15px;
+}
+.rightcolumn select {
+
+} 
+input[type='radio'], label{   
+    vertical-align: baseline;
+    padding: 10px;
+    margin: 10px;
+  margin-top:-1px;
+ }
+}
+input {
+  margin: 10px 15px
+    width=25%;
+}
+select {
+  margin: 10px 0px;
+  padding-left: 20px;
+  width=25%;
+}
+
+button{
+  display: inline-block;
+  text-align: center;
+}
+.radio {
+  margin-top: -10px;
+  vertical-align: middle;
+}
+
+#checkbox {
+  margin: 0px;
+  text-align: center;
+  padding: 0;
+  width: 90%;
+
+}
+#check {
+  display: inline-block
+}
+.checkbox{
+  margin: 10px;
+}
+
+#textarealabel , #textarea ,  {
+  vertical-align: middle;
+  width=50%;
+}
+#submit {
+    background-color:powderblue;
+    color:black;
+    border: 0px solid;
+    width: 100px;
+    height: 35px;
+    margin: 20px;
+}
+button { cursor: pointer; }
+
+
+@media screen and (max-width: 833px) {
+
+  body {
+    width: 100%;
+  }
+  form {
+    width: 85%;
+  }
+ .checkbox {
+    display: inline;
+  }
+  .rightcolumn {
+    width: 65%;
+    
+  }
+  .leftcolumn {
+    float: left;
+  }
+  #dropdown-label {
+    text-align:center;
+    float: none;
+    width: 10%;
+  }
+  #preferences-label{
+    width: 10%;
+  }
+  #radio-label , #preferences , #checkbox{
+   text-align: center;
+    margin:10 0;
+    padding: 0;
+    width: 80%;
+  }
+  #check {
+  display: block;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    vertical-align: middle;
+}
+  #textarealabel {
+    width: 100%;
+    text-align: center;
+    
+  }
+  #textarea{
+    width: 50%;
+    height: 50px;
+  }
+  input placeholder {
+    font-size: 10px;
+  }
+  #radio-label {
+    width: 90%;
+    text-align: center;
+    margin: 10px 0;
+    display: block;
+  }
+  #checkbox {
+    width: 100%;
+  }
+}
